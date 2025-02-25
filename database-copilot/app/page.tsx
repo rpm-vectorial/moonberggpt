@@ -15,7 +15,7 @@ export default function Home() {
     setError(null);
 
     try {
-      const res = await fetch("http://localhost:8080/databse_copilot", {
+      const res = await fetch("http://localhost:8084/databse_copilot", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
